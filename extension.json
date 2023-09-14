@@ -1,0 +1,23 @@
+{
+    "identifier": "com.roguelazer.JumptoRspecFile",
+    "name": "Jump to Rspec File",
+    "organization": "James Brown",
+    "description": "Jump to the RSpec file matching the currently-open Ruby file",
+    "version": "1.0",
+    "categories": ["commands"],
+    "license": "ISC",
+    "repository": "https://github.com/Roguelazer/jump-to-rspec-file.novaextension",
+    "main": "main.js",
+    "activationEvents": ["onLanguage:ruby"],
+    "entitlements": {},
+    "commands": {
+        "editor": [
+            {
+                "title": "Open RSpec file",
+                "command": "jump-to-rspec-file.open-rspec-file",
+                "when": "*"
+            }
+        ]
+    },
+    "config": []
+}
