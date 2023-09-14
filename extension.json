@@ -7,6 +7,7 @@
     "categories": ["commands"],
     "license": "ISC",
     "repository": "https://github.com/Roguelazer/jump-to-rspec-file.novaextension",
+    "bugs": "https://github.com/Roguelazer/jump-to-rspec-file.novaextension/issues/new",
     "main": "main.js",
     "activationEvents": ["onLanguage:ruby"],
     "entitlements": {},
